@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A web</title>
+</head>
+<body>
+<table class="table-layout">
+    <thead class="header">
+    <tr>
+        <td colspan="2"><h2>PROCESS LAYOUT EXAMPLE</h2> </td>
+    </tr>
+    </thead>
+<tbody class="body">
+<tr>
+        <td class="body1" colspan="1">
+            <b>Main Menu</b>
+            <p><a href="#"> Link one</a></p>
+            <p><a href="#"> Link two</a></p>
+            <p><a href="#"> Link three</a></p>
+        </td>
+        <td class="body2" colspan="1">
+            This is an example layout using tables
+        </td>
+</tr>
+</tbody>
+    <tfoot class="footer">
+    <tr>
+    <td colspan="2">www.Example of layout using tables.com</td>
+    </tr>
+    </tfoot>
+
+
+</table>
+</body>
+
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .table-layout {
+        border: 3px solid #000;
+    }
+
+    tr, td, th {
+        border: 1px solid #000;
+    }
+
+    tr, td {
+        width: 50%;
+        vertical-align: top;
+    }
+
+    .header {
+        height: 40px;
+        background-color: #ccc;
+    }
+
+    .body {
+        height: 120px;
+    }
+
+    .body1 {
+        background-color: rgb(235, 235, 92);
+        width: 20%;
+    }
+
+    .body2 {
+        width: 60%;
+    }
+
+    .body1 .body2 {
+        font-size: 12px;
+    }
+
+
+    .footer {
+        text-align: center;
+        background-color: #888;
+    }
+</style>
+</html>
